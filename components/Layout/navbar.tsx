@@ -511,7 +511,7 @@ export default function Navbar() {
                           Kho Vĩnh Long
                         </Link>
                         <Link
-                          href="https://klatexpress.com"
+                          href="https://khocantho.klatexpress.com"
                           target="_blank"
                           className="text-sm font-medium text-slate-600"
                         >

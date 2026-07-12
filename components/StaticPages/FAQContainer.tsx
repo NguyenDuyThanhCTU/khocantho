@@ -272,10 +272,10 @@ export default function FAQContainer() {
             Gửi yêu cầu hỗ trợ
           </Link>
           <a
-            href="tel:0925365179"
+            href="tel:0777697056"
             className="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-4 rounded-xl font-bold transition-all backdrop-blur-md"
           >
-            Gọi Hotline: 0925 365 179
+            Gọi Hotline: 0777 697 056
           </a>
         </div>
       </motion.div>

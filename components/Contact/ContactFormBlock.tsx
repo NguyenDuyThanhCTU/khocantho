@@ -84,10 +84,10 @@ export default function ContactFormBlock() {
                     Hotline tư vấn 24/7
                   </p>
                   <a
-                    href="tel:0925365179"
+                    href="tel:0777697056"
                     className="text-2xl font-black text-[#0A192F] hover:text-brand-orange transition-colors"
                   >
-                    0925 365 179
+                    0777 697 056
                   </a>
                 </div>
               </div>
@@ -101,10 +101,11 @@ export default function ContactFormBlock() {
                     Hỗ trợ qua Zalo
                   </p>
                   <a
-                    href="https://zalo.me/0925365179"
+                    href="https://zalo.me/0777697056"
+                    target="_blank"
                     className="text-xl font-bold text-slate-800 hover:text-blue-600 transition-colors"
                   >
-                    An Tâm Express Official
+                    Duy Thanh - Gửi Hàng Đi Nước Ngoài
                   </a>
                 </div>
               </div>

@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://klatexpress.com"),
+  metadataBase: new URL("https://khocantho.klatexpress.com"),
 
   title: {
     default:
@@ -38,7 +38,9 @@ export const metadata: Metadata = {
     "ship hàng đi canada bao thuế",
   ],
 
-  authors: [{ name: "An Tâm Express Team", url: "http://klatexpress.com" }],
+  authors: [
+    { name: "An Tâm Express Team", url: "https://khocantho.klatexpress.com" },
+  ],
   creator: "An Tâm Express",
   publisher: "An Tâm Express Logistics",
 
@@ -47,7 +49,7 @@ export const metadata: Metadata = {
     title: "An Tâm Express - Gửi Hàng Quốc Tế Nhanh & Rẻ Nhất Miền Tây",
     description:
       "Miễn phí lấy hàng tận nhà tại Khu vực Miền Tây. Bao thuế nhập khẩu, đền bù 100% giá trị hàng hóa.",
-    url: "http://klatexpress.com",
+    url: "https://khocantho.klatexpress.com",
     siteName: "An Tâm Express",
     locale: "vi_VN",
     type: "website",
@@ -76,7 +78,7 @@ export const metadata: Metadata = {
 
   // Canonical URL (Tránh trùng lặp nội dung)
   alternates: {
-    canonical: "http://klatexpress.com",
+    canonical: "https://khocantho.klatexpress.com",
   },
 
   icons: {

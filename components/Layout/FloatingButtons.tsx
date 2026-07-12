@@ -30,14 +30,14 @@ export default function FloatingButtons() {
     {
       id: "zalo",
       name: "Chat Zalo",
-      href: "https://zalo.me/0925365179",
+      href: "https://zalo.me/0777697056",
       image:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Icon_of_Zalo.svg/120px-Icon_of_Zalo.svg.png",
     },
     {
       id: "facebook",
       name: "Facebook",
-      href: "https://facebook.com/vanchuyenqd",
+      href: "https://www.facebook.com/guihangquoctemientay/",
       image:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/120px-Facebook_Logo_%282019%29.png",
     },
@@ -58,8 +58,8 @@ export default function FloatingButtons() {
           <div className="absolute -bottom-1 left-4 w-3 h-3 bg-white border-b border-r border-gray-100 transform rotate-45"></div>
         </div>
 
-        <button
-          onClick={() => setIsPopupOpen(true)}
+        <Link
+          href={`tel:0777697056`}
           className="bg-[#ff3300] hover:bg-[#e62e00] text-white flex items-center gap-3 px-5 py-3 rounded-full shadow-xl transition-all transform hover:scale-105 group"
         >
           <div className="relative">
@@ -72,7 +72,7 @@ export default function FloatingButtons() {
           <span className="font-bold text-sm uppercase tracking-wide">
             Nhận báo giá
           </span>
-        </button>
+        </Link>
       </div>
 
       {/* 2. Cụm nút bên phải (Socials + ScrollTop) */}

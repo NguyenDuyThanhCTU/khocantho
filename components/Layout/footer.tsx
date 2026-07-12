@@ -159,37 +159,39 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-brand-orange shrink-0 mt-0.5" />
                 <span>
-                  <strong className="text-white">
-                    Trụ sở TP. Hồ Chí Minh:
-                  </strong>{" "}
-                  45/10 Cao Lỗ, Phường 04, Quận 8, TP Hồ Chí Minh
+                  <strong className="text-white">Trụ sở Bến Tre:</strong> F12A
+                  KĐT Hưng Phú, Phường Phú Tân, Tỉnh Vĩnh Long ( Bến Tre Cũ)
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-brand-orange shrink-0 mt-0.5" />
                 <span>
-                  <strong className="text-white">Kho Cần Thơ:</strong> 38/42 Đ.
-                  Mậu Thân, An Nghiệp, Cái Khế, Cần Thơ
+                  <strong className="text-white">Kho Cần Thơ:</strong> 38/42 Mậu
+                  Thân, Phường Cái Khế, Thành Phố Cần Thơ (Phường An Hòa Cũ)
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-brand-orange shrink-0 mt-0.5" />
                 <span>
-                  <strong className="text-white">Kho Đồng Tháp:</strong> 139/5
-                  Trần Hưng Đạo, Phường 6, Thới Sơn, Đồng Tháp
+                  <strong className="text-white">Kho TP. Hồ Chí Minh:</strong>{" "}
+                  45/10 Cao Lỗ, Phường Chánh Hưng, TP HCM
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-brand-orange shrink-0 mt-0.5" />
                 <span>
-                  <strong className="text-white">Kho Vĩnh Long:</strong> F12A
-                  KĐT Hưng Phú, Phú Tân, Vĩnh Long
+                  <strong className="text-white">Kho Mỹ Tho Cũ</strong> 139/5
+                  Trần Hưng Đạo, Phường Thới Sơn, Tỉnh Đồng Tháp ( Mỹ Tho Cũ )
                 </span>
               </li>
+
               <li className="flex items-center gap-3 mt-4">
                 <Phone className="w-5 h-5 text-brand-orange" />
-                <span>Hotline: 0925 365 179</span>
+                <span>
+                  Hotline: <Link href="tel:0911 204 954">0911 204 954</Link>
+                </span>
               </li>
+
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-brand-orange" />
                 <span>vanchuyenklat.express@gmail.com</span>
@@ -201,7 +203,13 @@ export default function Footer() {
         {/* Tier 2: Footer Bottom */}
         <div className="pt-8 border-t border-slate-700/50 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <p>
-            © {new Date().getFullYear()} An Tâm Express. All rights reserved.
+            © {new Date().getFullYear()} www.khocantho.klatexpress.com. All
+            rights reserved.
+            <br />
+            Website được thiết kế bởi{" "}
+            <Link target="_blank" href="https://www.facebook.com/DuyThanhCTU/">
+              Duy Thanh
+            </Link>
           </p>
           <div className="flex flex-wrap items-center gap-4 md:gap-6">
             <Link

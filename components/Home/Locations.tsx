@@ -9,7 +9,7 @@ import Link from "next/link";
 const locations = [
   {
     city: "Kho Bến Tre Cũ",
-    address: " F12A KĐT Hưng Phú, Phường Phú Tân, Tỉnh Vĩnh Long ( Bến Tre Cũ)",
+    address: "F12A KĐT Hưng Phú, Phường Phú Tân, Tỉnh Vĩnh Long ( Bến Tre Cũ)",
     phone: "0925365179",
     mapLink: "https://maps.app.goo.gl/SFnBNv1pYeqNpwGBA",
     link: "https://khovinhlong.klatexpress.com",
@@ -22,7 +22,7 @@ const locations = [
     address: "45/10 Cao Lỗ, Phường Chánh Hưng, TP HCM",
     phone: "093 800 2596",
     mapLink: "https://maps.google.com/?q=45/10+Cao+Lỗ+Quận+8",
-    link: "https://klatexpress.com",
+    link: "https://khocantho.klatexpress.com",
     highlight: false,
     delay: 0.2,
   },

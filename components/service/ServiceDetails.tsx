@@ -147,10 +147,10 @@ export default function ServiceDetails({ route }: { route: ServiceRoute }) {
                 Gọi ngay cho chúng tôi để được giải đáp.
               </p>
               <a
-                href="tel:84902596979"
+                href="tel:0777697056"
                 className="inline-block px-6 py-3 bg-white text-brand-blue font-bold rounded-xl hover:bg-brand-orange hover:text-white transition-colors"
               >
-                Gọi Hotline 0902 59 69 79
+                Gọi Hotline 0777 697 056
               </a>
             </div>
           </div>
